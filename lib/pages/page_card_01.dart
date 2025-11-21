@@ -8,6 +8,7 @@ class JulPageCard01 extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text("Page Julian Card 01"),
+        centerTitle: true,
       ),
       body: SingleChildScrollView(
         child: Column(
