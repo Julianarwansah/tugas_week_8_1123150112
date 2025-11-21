@@ -12,20 +12,54 @@ class JulPageCard01 extends StatelessWidget {
       ),
       body: SingleChildScrollView(
         child: Column(
-          crossAxisAlignment: CrossAxisAlignment.center,
           children: [
+            const SizedBox(height: 20),
+
             Center(
               child: Card(
                 color: Colors.red,
-                child: Padding(
-                  padding: EdgeInsets.all(16.0),
-                  child: Text("Card with color", style: TextStyle(fontSize: 16.0)),
+                child: Text("Card with color", style: TextStyle(fontSize: 16.0)),
+              )
+            ),
+
+            const SizedBox(height: 20),
+              Container(
+                decoration: BoxDecoration(
+                borderRadius: BorderRadius.circular(12.0),
+                color: Colors.red,
+              ),
+            child: Text("Container with color", style: TextStyle(fontSize: 16.0)),
+            ),
+
+            const SizedBox(height: 20),
+
+            Card(
+              elevation: 8, // tinggi bayangan
+              color: Colors.yellow,
+              child: Padding(
+                padding: const EdgeInsets.all(12.0),
+                child: Text(
+                  "Tinggi bayangan Shadow",
+                  style: TextStyle(fontSize: 12.0),
                 ),
               ),
             ),
+
+            const SizedBox(height: 20),
+
+            Container(
+            decoration: BoxDecoration(
+              color: Colors.yellow,
+              borderRadius: BorderRadius.circular(16),
+              boxShadow: [
+                BoxShadow(color: Colors.black26, blurRadius: 10, offset: Offset(0, 4)),
+            ],
+            ),
+            child: Text("Tinggi bayangan Shadow", style: TextStyle(fontSize: 12.0)),
+            ),
           ],
         ),
-      )
+      ),
     );
   }
 }
