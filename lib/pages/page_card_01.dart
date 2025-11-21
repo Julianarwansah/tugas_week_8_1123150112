@@ -86,6 +86,19 @@ class JulPageCard01 extends StatelessWidget {
               ),
             ),
 
+            Card(
+              shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(15.0),
+              ),
+              child: Padding(
+                padding: const EdgeInsets.all(8.0),
+                child: Text(
+                  "Shape Bingkai persegi panjang",
+                  style: TextStyle(fontSize: 12.0),
+                ),
+              ),
+            ),
+
             const SizedBox(height: 20),
 
             Card(
@@ -95,6 +108,43 @@ class JulPageCard01 extends StatelessWidget {
                 child: Text("Margin Card", style: TextStyle(fontSize: 10.0)),
               ),
             ),
+
+            const SizedBox(height: 20),
+
+            Card(
+              shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(16),
+                side: const BorderSide(color: Colors.red, width: 3),
+              ),
+              borderOnForeground: true,
+              child: Container(
+                padding: const EdgeInsets.all(20),
+                color: Colors.yellow,
+                child: const Text(
+                  "borderOnForeground: TRUE\nBorder di atas child",
+                  style: TextStyle(fontSize: 12),
+                ),
+              ),
+            ),
+
+            const SizedBox(height: 20),
+
+            Card(
+              shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(16),
+                side: const BorderSide(color: Colors.red, width: 3),
+              ),
+              borderOnForeground: false,
+              child: Container(
+                padding: const EdgeInsets.all(20),
+                color: Colors.yellow,
+                child: const Text(
+                  "borderOnForeground: FALSE\nBorder di belakang child",
+                  style: TextStyle(fontSize: 12),
+                ),
+              ),
+            ),
+
           ],
         ),
       ),
