@@ -12,11 +12,20 @@ class JulPageCard01 extends StatelessWidget {
       ),
       body: SingleChildScrollView(
         child: Column(
+          crossAxisAlignment: CrossAxisAlignment.center,
           children: [
-            
+            Center(
+              child: Card(
+                color: Colors.red,
+                child: Padding(
+                  padding: EdgeInsets.all(16.0),
+                  child: Text("Card with color", style: TextStyle(fontSize: 16.0)),
+                ),
+              ),
+            ),
           ],
         ),
-      ),
+      )
     );
   }
 }
