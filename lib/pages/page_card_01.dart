@@ -9,8 +9,12 @@ class JulPageCard01 extends StatelessWidget {
       appBar: AppBar(
         title: const Text("Page Julian Card 01"),
       ),
-      body: const Center(
-        child: Text("Latihan Card"),
+      body: SingleChildScrollView(
+        child: Column(
+          children: [
+            
+          ],
+        ),
       ),
     );
   }
