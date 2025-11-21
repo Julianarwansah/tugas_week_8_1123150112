@@ -145,6 +145,16 @@ class JulPageCard01 extends StatelessWidget {
               ),
             ),
 
+            const SizedBox(height: 20),
+
+            Card(
+              clipBehavior: Clip.antiAlias,
+              child: const Text(
+                "Anti alias clip Card",
+                style: TextStyle(fontSize: 14),
+              ),
+            ),
+
           ],
         ),
       ),
