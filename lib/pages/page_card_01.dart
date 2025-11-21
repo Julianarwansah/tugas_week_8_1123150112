@@ -155,6 +155,35 @@ class JulPageCard01 extends StatelessWidget {
               ),
             ),
 
+            const SizedBox(height: 20),
+
+            Card(
+              elevation: 8,
+              child: Padding(
+                padding: EdgeInsets.all(20.0),
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text(
+                      'Tentang Saya',
+                      style: TextStyle(
+                        fontSize: 20,
+                        fontWeight: FontWeight.bold,
+                      ),
+                    ),
+
+                    SizedBox(height: 20),
+
+                    Text(
+                      'an enthusiast in information technology (Digital Sign , Blockchain, etc), '
+                      'with more than 20 years of experiences in the payment industry',
+                      style: TextStyle(fontSize: 15, color: Colors.grey),
+                      textAlign: TextAlign.justify,
+                    ),
+                  ],
+                ),
+              ),
+            ),
           ],
         ),
       ),
