@@ -20,7 +20,7 @@ class JulPageCard02 extends StatelessWidget {
               shadowColor: Colors.red,
               clipBehavior: Clip.antiAlias,
               child: Container(
-                decoration: const BoxDecoration(
+                decoration: BoxDecoration(
                   gradient: LinearGradient(
                     begin: Alignment.topRight,
                     end: Alignment.bottomLeft,
@@ -59,6 +59,22 @@ class JulPageCard02 extends StatelessWidget {
                           color: Colors.white,
                         ),
                       ),
+
+                      const SizedBox(height: 10),
+                      Container(
+                        decoration: BoxDecoration(
+                          color: Colors.blue,
+                          borderRadius: BorderRadius.circular(20),
+                        ),
+                        child: const Text(
+                          "113150112",
+                          style: TextStyle(
+                            fontSize: 16.0,
+                            color: Colors.white,
+                            fontWeight: FontWeight.w500,
+                          ),
+                        ),
+                      )
                     ],
                   ),
                 ),
