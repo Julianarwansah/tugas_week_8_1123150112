@@ -13,8 +13,28 @@ class JulPageCard02 extends StatelessWidget {
       body: SingleChildScrollView(
         child: Column(
           children: [
+            Center(
+            ),
             const SizedBox(height: 20),
-            
+            Card(
+              elevation: 8,
+              shadowColor: Colors.red,
+              clipBehavior: Clip.antiAlias,
+              child: Container(
+                decoration: BoxDecoration(
+                  gradient: LinearGradient(
+                    begin: Alignment.topRight,
+                    end: Alignment.bottomLeft,
+                    colors: [Colors.blue, Colors.red],
+                  ),
+                ),
+                child: Text(
+                  "text",
+                  style: TextStyle(fontSize: 20.0),
+                ),
+              ),
+            )
+
           ],
         ),
       ),
