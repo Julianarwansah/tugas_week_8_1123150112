@@ -20,7 +20,6 @@ class JulPageCard02 extends StatelessWidget {
               shadowColor: Colors.red,
               clipBehavior: Clip.antiAlias,
               child: Container(
-                padding: const EdgeInsets.all(20),
                 decoration: const BoxDecoration(
                   gradient: LinearGradient(
                     begin: Alignment.topRight,
@@ -28,14 +27,18 @@ class JulPageCard02 extends StatelessWidget {
                     colors: [Colors.blue, Colors.red],
                   ),
                 ),
-                child: Column(
-                  children: const [
-                    CircleAvatar(
-                      radius: 60,
-                      backgroundImage: AssetImage("assets/images/taksbg.png"),
-                    ),
-                    SizedBox(height: 20),
-                  ],
+
+                child: Padding(
+                  padding: const EdgeInsets.all(20),
+                  child: Column(
+                    children: const [
+                      CircleAvatar(
+                        radius: 60,
+                        backgroundImage: AssetImage("assets/images/taksbg.png"),
+                      ),
+                      SizedBox(height: 20),
+                    ],
+                  ),
                 ),
               ),
             ),
