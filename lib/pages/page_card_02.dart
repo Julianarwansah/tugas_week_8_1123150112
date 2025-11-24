@@ -74,6 +74,51 @@ class JulPageCard02 extends StatelessWidget {
                             fontWeight: FontWeight.w500,
                           ),
                         ),
+                      ),
+                      Row(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          const SizedBox(height: 20),
+                          const Text(
+                            "Mobile Application Development",
+                            style: TextStyle(
+                              fontSize: 11.0,
+                              fontWeight: FontWeight.bold,
+                            ),
+                          ),
+                          SizedBox(
+                            height: 40,
+                            child: VerticalDivider(
+                              thickness: 1,
+                              color: Colors.black,
+                              width: 20,
+                            ),
+                          ),
+
+                          const Text(
+                            "Mobile Application Development",
+                            style: TextStyle(
+                              fontSize: 11.0,
+                              fontWeight: FontWeight.bold,
+                            ),
+                          ),
+                          SizedBox(
+                            height: 40,
+                            child: VerticalDivider(
+                              thickness: 1,
+                              color: Colors.black,
+                              width: 20,
+                            ),
+                          ),
+
+                          const Text(
+                            "Mobile Application Development",
+                            style: TextStyle(
+                              fontSize: 11.0,
+                              fontWeight: FontWeight.bold,
+                            ),
+                          ),
+                        ],
                       )
                     ],
                   ),
