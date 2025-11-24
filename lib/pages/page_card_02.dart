@@ -12,6 +12,7 @@ class JulPageCard02 extends StatelessWidget {
       ),
       body: SingleChildScrollView(
         child: Row(
+          mainAxisAlignment: MainAxisAlignment.center,
           children: [
             const SizedBox(width: 20),
             Card(
