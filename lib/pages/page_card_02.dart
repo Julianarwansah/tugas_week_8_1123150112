@@ -13,28 +13,31 @@ class JulPageCard02 extends StatelessWidget {
       body: SingleChildScrollView(
         child: Row(
           children: [
-            Center(
-            ),
-            const SizedBox(height: 20),
+            const SizedBox(width: 20),
             Card(
               elevation: 8,
               shadowColor: Colors.red,
               clipBehavior: Clip.antiAlias,
               child: Container(
-                decoration: BoxDecoration(
+                padding: const EdgeInsets.all(20),
+                decoration: const BoxDecoration(
                   gradient: LinearGradient(
                     begin: Alignment.topRight,
                     end: Alignment.bottomLeft,
                     colors: [Colors.blue, Colors.red],
                   ),
                 ),
-                child: Text(
-                  "text",
-                  style: TextStyle(fontSize: 20.0),
+                child: Column(
+                  children: const [
+                    CircleAvatar(
+                      radius: 60,
+                      backgroundImage: AssetImage("assets/images/taksbg.png"),
+                    ),
+                    SizedBox(height: 20),
+                  ],
                 ),
               ),
-            )
-
+            ),
           ],
         ),
       ),
