@@ -27,16 +27,25 @@ class JulPageCard02 extends StatelessWidget {
                     colors: [Colors.blue, Colors.red],
                   ),
                 ),
-
                 child: Padding(
                   padding: const EdgeInsets.all(20),
                   child: Column(
-                    children: const [
-                      CircleAvatar(
-                        radius: 60,
-                        backgroundImage: AssetImage("assets/images/taksbg.png"),
+                    children: [
+                      Container(
+                        decoration: BoxDecoration(
+                          shape: BoxShape.circle,
+                          border: Border.all(
+                            color: Colors.white,
+                            width: 4,
+                          ),
+                        ),
+                        child: const CircleAvatar(
+                          radius: 60,
+                          backgroundImage:
+                              AssetImage("assets/images/taksbg.png"),
+                        ),
                       ),
-                      SizedBox(height: 20),
+                      const SizedBox(height: 20),
                     ],
                   ),
                 ),
