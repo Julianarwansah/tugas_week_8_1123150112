@@ -13,7 +13,26 @@ class JulPageCard03 extends StatelessWidget {
       body: SingleChildScrollView(
         child: Column(
           children: [
-            
+            Card(
+              elevation: 5.0,
+              margin: const EdgeInsets.all(16.0),
+              child: Column(
+                mainAxisSize: MainAxisSize.min,
+                children: [
+                  const ListTile(
+                    leading: Icon(Icons.install_desktop_rounded, size: 50),
+                    title: Text('Belum ada judul'),
+                    subtitle: Text('sebuah judul lagu dari Iwan Fals'),
+                  ),
+                  const Padding(
+                    padding: EdgeInsets.all(16.0),
+                    child: Text(
+                      'Card dapat di isi berbagai widget seperti text, image, button, dan lainnya.',
+                    ),
+                  ),
+                ],
+              ),
+            ),
           ],
         ),
       ),
