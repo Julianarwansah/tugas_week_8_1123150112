@@ -11,7 +11,7 @@ class JulPageCard02 extends StatelessWidget {
         centerTitle: true,
       ),
       body: SingleChildScrollView(
-        child: Column(
+        child: Row(
           children: [
             Center(
             ),
