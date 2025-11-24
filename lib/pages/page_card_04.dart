@@ -13,7 +13,14 @@ class JulPageCard04 extends StatelessWidget {
       body: SingleChildScrollView(
         child: Column(
           children: [
-            
+            Container(
+              width: 320,
+              height: 200,
+              decoration: BoxDecoration(
+                borderRadius: BorderRadius.circular(16),
+                color: const Color(0xFF1A1A1A),
+              ),
+            ),
           ],
         ),
       ),
