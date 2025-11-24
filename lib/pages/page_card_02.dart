@@ -79,13 +79,29 @@ class JulPageCard02 extends StatelessWidget {
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
                           const SizedBox(height: 20),
-                          const Text(
-                            "Mobile Application Development",
-                            style: TextStyle(
-                              fontSize: 11.0,
-                              fontWeight: FontWeight.bold,
-                            ),
+
+                          Column(
+                            children: [
+                              const Text(
+                                "100",
+                                style: TextStyle(
+                                  fontSize: 22,
+                                  fontWeight: FontWeight.bold,
+                                  color: Color.fromARGB(255, 255, 255, 255),
+                                ),
+                              ),
+                              const SizedBox(height: 5),
+                              Text(
+                                "Follower",
+                                style: TextStyle(
+                                  fontSize: 14.0,
+                                  fontWeight: FontWeight.bold,
+                                  color: const Color.fromARGB(255, 255, 255, 255).withValues(alpha: 0.5),
+                                ),
+                              ),
+                            ],
                           ),
+
                           SizedBox(
                             height: 40,
                             child: VerticalDivider(
@@ -95,13 +111,28 @@ class JulPageCard02 extends StatelessWidget {
                             ),
                           ),
 
-                          const Text(
-                            "Mobile Application Development",
-                            style: TextStyle(
-                              fontSize: 11.0,
-                              fontWeight: FontWeight.bold,
-                            ),
+                          Column(
+                            children: [
+                              const Text(
+                                "100",
+                                style: TextStyle(
+                                  fontSize: 22,
+                                  fontWeight: FontWeight.bold,
+                                  color: Color.fromARGB(255, 255, 255, 255),
+                                ),
+                              ),
+                              const SizedBox(height: 5),
+                              Text(
+                                "Follower",
+                                style: TextStyle(
+                                  fontSize: 14.0,
+                                  fontWeight: FontWeight.bold,
+                                  color: const Color.fromARGB(255, 255, 255, 255).withValues(alpha: 0.5),
+                                ),
+                              ),
+                            ],
                           ),
+
                           SizedBox(
                             height: 40,
                             child: VerticalDivider(
@@ -111,13 +142,28 @@ class JulPageCard02 extends StatelessWidget {
                             ),
                           ),
 
-                          const Text(
-                            "Mobile Application Development",
-                            style: TextStyle(
-                              fontSize: 11.0,
-                              fontWeight: FontWeight.bold,
-                            ),
+                          Column(
+                            children: [
+                              const Text(
+                                "100",
+                                style: TextStyle(
+                                  fontSize: 22,
+                                  fontWeight: FontWeight.bold,
+                                  color: Color.fromARGB(255, 255, 255, 255),
+                                ),
+                              ),
+                              const SizedBox(height: 5),
+                              Text(
+                                "Follower",
+                                style: TextStyle(
+                                  fontSize: 14.0,
+                                  fontWeight: FontWeight.bold,
+                                  color: const Color.fromARGB(255, 255, 255, 255).withValues(alpha: 0.5),
+                                ),
+                              ),
+                            ],
                           ),
+
                         ],
                       )
                     ],
