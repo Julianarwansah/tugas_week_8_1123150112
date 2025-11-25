@@ -16,6 +16,7 @@ class JulPageCard04 extends StatelessWidget {
             Container(
               width: 320,
               height: 200,
+              margin: const EdgeInsets.only(bottom: 20),
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(16),
                 gradient: const LinearGradient(
