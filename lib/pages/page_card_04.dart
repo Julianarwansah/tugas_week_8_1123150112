@@ -85,6 +85,26 @@ class JulPageCard04 extends StatelessWidget {
                           ),
                         ],
                       ),
+                      Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Text(
+                            'CVV',
+                            style: TextStyle(
+                              color: Colors.white.withValues(alpha: 0.7),
+                              fontSize: 12,
+                            ),
+                          ),
+                          const Text(
+                            '1945',
+                            style: TextStyle(
+                              color: Colors.white,
+                              fontSize: 14,
+                              fontWeight: FontWeight.w500,
+                            ),
+                          ),
+                        ],
+                      ),
                     ],
                   ),
                 ],
