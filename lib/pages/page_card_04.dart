@@ -118,6 +118,27 @@ class JulPageCard04 extends StatelessWidget {
                           ),
                         ],
                       ),
+                      Stack(
+                        children: [
+                          Container(
+                            width: 30,
+                            height: 30,
+                            decoration: const BoxDecoration(
+                              color: Color(0xFFEB001B),
+                              shape: BoxShape.circle,
+                            ),
+                          ),
+                          Container(
+                            width: 30,
+                            height: 30,
+                            margin: const EdgeInsets.only(left: 15),
+                            decoration: const BoxDecoration(
+                              color: Color(0xFFF79E1B),
+                              shape: BoxShape.circle,
+                            ),
+                          ),
+                        ],
+                      ),
                     ],
                   ),
                 ],
