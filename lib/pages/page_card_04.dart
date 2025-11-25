@@ -53,6 +53,15 @@ class JulPageCard04 extends StatelessWidget {
                     ),
                   ),
                   const SizedBox(height: 20),
+                  const Text(
+                    'Julian Arwansah',
+                    style: TextStyle(
+                      color: Colors.white,
+                      fontSize: 16,
+                      fontWeight: FontWeight.w500,
+                    ),
+                  ),
+                  const SizedBox(height: 30),
                 ],
               ),
             ),
