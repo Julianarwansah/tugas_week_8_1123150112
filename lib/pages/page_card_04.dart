@@ -11,6 +11,7 @@ class JulPageCard04 extends StatelessWidget {
         centerTitle: true,
       ),
       body: SingleChildScrollView(
+        padding: const EdgeInsets.all(20),
         child: Column(
           children: [
             Container(
@@ -29,12 +30,12 @@ class JulPageCard04 extends StatelessWidget {
                   ],
                 ),
                 border: Border.all(
-                  color: Colors.white.withValues(alpha: 0.2),
+                  color: Colors.white.withValues(alpha: 51),
                   width: 1,
                 ),
                 boxShadow: [
                   BoxShadow(
-                    color: Colors.black.withValues(alpha: 0.3),
+                    color: Colors.black.withValues(alpha: 77),
                     blurRadius: 10,
                     offset: const Offset(0, 4),
                   ),
@@ -42,26 +43,38 @@ class JulPageCard04 extends StatelessWidget {
               ),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
-                  const Text(
-                    '0896 1234 5678 9012',
-                    style: TextStyle(
-                      color: Colors.white,
-                      fontSize: 18,
-                      fontWeight: FontWeight.bold,
-                      letterSpacing: 2,
-                    ),
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    children: const [
+                      Icon(Icons.credit_card, color: Colors.white70, size: 32),
+                      Icon(Icons.contactless, color: Colors.white54, size: 32),
+                    ],
                   ),
-                  const SizedBox(height: 20),
-                  const Text(
-                    'Julian Arwansah',
-                    style: TextStyle(
-                      color: Colors.white,
-                      fontSize: 16,
-                      fontWeight: FontWeight.w500,
-                    ),
+                  Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: const [
+                      Text(
+                        '0896 1234 5678 9012',
+                        style: TextStyle(
+                          color: Colors.white,
+                          fontSize: 18,
+                          fontWeight: FontWeight.bold,
+                          letterSpacing: 2,
+                        ),
+                      ),
+                      SizedBox(height: 10),
+                      Text(
+                        'Julian Arwansah',
+                        style: TextStyle(
+                          color: Colors.white,
+                          fontSize: 16,
+                          fontWeight: FontWeight.w500,
+                        ),
+                      ),
+                    ],
                   ),
-                  const SizedBox(height: 30),
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
@@ -71,12 +84,12 @@ class JulPageCard04 extends StatelessWidget {
                           Text(
                             'Expiry Date',
                             style: TextStyle(
-                              color: Colors.white.withValues(alpha: 0.7),
+                              color: Colors.white.withValues(alpha: 179),
                               fontSize: 12,
                             ),
                           ),
                           const Text(
-                            '18/2027',
+                            '19/9/2027',
                             style: TextStyle(
                               color: Colors.white,
                               fontSize: 14,
@@ -91,7 +104,7 @@ class JulPageCard04 extends StatelessWidget {
                           Text(
                             'CVV',
                             style: TextStyle(
-                              color: Colors.white.withValues(alpha: 0.7),
+                              color: Colors.white.withValues(alpha: 179),
                               fontSize: 12,
                             ),
                           ),
